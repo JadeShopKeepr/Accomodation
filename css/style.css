@@ -1,0 +1,41 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url(https://images.pexels.com/photos/4451712/pexels-photo-4451712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #24355c;
+}
+
+@media(max-width:768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #24355c;
+    }
+}
+
+ol {
+    list-style: none;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
